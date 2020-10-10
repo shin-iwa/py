@@ -3,8 +3,8 @@ body {
 }
 .circle {
   border-radius: 50%;
-  border: 1px solid red;
+  border: 5px double red;
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: white;
 }
