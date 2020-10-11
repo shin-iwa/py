@@ -3,7 +3,7 @@ body {
 }
 .circle {
   border-radius: 50%;
-  border: 5px double red;
+  border: 10px double red;
   width: 100px;
   height: 100px;
   background-color: white;
