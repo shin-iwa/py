@@ -4,6 +4,7 @@ print(test[0])
 
 fruits = ['apple', 'banana', 'orange', 'grape']
 food = 'sushi'
+# foods = ['sushi', 'teriyaki']
 
 i = 0
 for fruit in fruits:
