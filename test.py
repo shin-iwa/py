@@ -12,4 +12,4 @@ fruits = [{'sushi': 'apple'}, {'curry': 'banana'}, {'sandwitch': 'orange'}]
 #     print(str(i) + '.' +'好きなものは' + fruit + 'です')
 #     i += 1
 
-print(fruits[1])
+print(fruits[0])
