@@ -5,7 +5,9 @@ class Main {
       System.out.println(i + "回目のループです");
     }
 
-    String[]name = {"ichieo", "haruka", "jiro"};
-    System.out.println(name[1]);
+    String[]names = {"ichieo", "haruka", "jiro"};
+    for(String name: names){
+      System.out.println(name);
+    }
   }
 }
