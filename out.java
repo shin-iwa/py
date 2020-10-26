@@ -3,3 +3,5 @@ class second {
     System.out.println("これはテスト文です");
   }
 }
+
+add();
