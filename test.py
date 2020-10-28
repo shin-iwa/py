@@ -11,5 +11,8 @@ fruits = [{'sushi': 'apple'}, {'curry': 'banana'}, {'sandwitch': 'orange'}]
 # for fruit in fruits:
 #     print(str(i) + '.' +'好きなものは' + fruit + 'です')
 #     i += 1
+num = 1
+print(num)
+
 
 print(fruits[0])
