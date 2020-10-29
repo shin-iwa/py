@@ -1,18 +1,5 @@
-test = ['pasta', 'curry', 'sushi']
-print(test)
-print(test[0])
 
-# fruits = ['apple', 'banana', 'orange', 'grape']
-fruits = [{'sushi': 'apple'}, {'curry': 'banana'}, {'sandwitch': 'orange'}]
-# food = 'sushi'
-# foods = ['sushi', 'teriyaki']
+num01 = ["sato", "suzuki"]
+print(type(num01))
+print(num01)
 
-# i = 0
-# for fruit in fruits:
-#     print(str(i) + '.' +'好きなものは' + fruit + 'です')
-#     i += 1
-num = 1
-print(num)
-
-
-print(fruits[0])
