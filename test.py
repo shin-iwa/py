@@ -1,4 +1,6 @@
-x = 22
+x = 18
 
 if(x >= 20):
   print("adult")
+else:
+  print("child")
