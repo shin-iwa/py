@@ -1,5 +1,4 @@
-def add(num01, num02):
-  return(num01 + num02)
+def avr(a, b, c):
+  return (a + b + c)/3
 
-add_result = add(6, 2)
-print(add_result)
+print(avr(9, 4, 2))
