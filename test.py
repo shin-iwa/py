@@ -8,4 +8,4 @@ print(num01)
 x = 10
 y = 2
 
-print(x == y)
+print(x == 10 and y == 2)
