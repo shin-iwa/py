@@ -20,5 +20,6 @@ a001.name = "sato"
 print(a001.name)
 
 a002 = Student()
+a002.name = "tanaka"
 print(a002.name)
 
