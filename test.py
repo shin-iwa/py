@@ -1,24 +1,23 @@
-def avr(a, b, c):
-  return (a + b + c)/3
-
-def unit(a, b, c):
-  return (a + b + c)
-
-print(avr(9, 10, 2))
-
-print(unit("hana", "mizu", "ki"))
-
 class Student:
-  def __init__(self,name,greeting):
+
+  def __init__(self, name):
     self.name = name
-    self.greeting = greeting
 
-  def avg(self, math, english):
-    print((math + english)/2)
+  def calculate_avg(self, date):
+    sum = 0
 
-a001 = Student("sato", "hello!")
-print(a001.name + " " + a001.greeting)
+    for num in date:
+      sum += num
 
-a002 = Student("tanaka", "good mornig!")
-print(a002.name + " " + a002.greeting)
+      avg = sum/len(date)
+      return avg
 
+  def judge(self, avg):
+
+    if(avg >= 60):
+      result = "passed"
+    else:
+      result = "faled"
+    return result
+
+a001 = Student("sato")
