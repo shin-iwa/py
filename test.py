@@ -13,7 +13,7 @@ class Student:
 
   def judge(self, avg):
 
-    if(avg >= 60):
+    if(avg <= 60):
       result = "passed"
     else:
       result = "faled"
