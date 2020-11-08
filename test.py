@@ -13,7 +13,7 @@ class Student:
 
   def judge(self, avg):
 
-    if(avg <= 60):
+    if(avg >= 60):
       result = "passed"
     else:
       result = "faled"
@@ -21,7 +21,7 @@ class Student:
 
 a001 = Student("sato")
 # date = [70,65,50,90,30]
-date = [80,40]
+date = [80,40,30]
 avg = a001.calculate_avg(date)
 result = a001.judge(avg)
 
