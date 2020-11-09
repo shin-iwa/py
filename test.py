@@ -23,3 +23,12 @@ print(newlist)
 l = [1,2,3,4]
 if 1 in l:
   print("hoge")
+
+  d = {
+    "apple": 100,
+    "orange": 200,
+    "kiwi": 300
+}
+
+if "orange" in d.keys():
+  print("hoge")
