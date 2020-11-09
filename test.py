@@ -16,3 +16,6 @@ for item in oldlist:
     newlist.append(1)
 
 print(newlist)
+
+newlist = [item if item % 2 == 0 else 1 for item in oldlist]
+print(newlist)
