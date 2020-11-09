@@ -19,3 +19,7 @@ print(newlist)
 
 newlist = [item if item % 2 == 0 else 1 for item in oldlist]
 print(newlist)
+
+l = [1,2,3,4]
+if 1 in l:
+  print("hoge")
