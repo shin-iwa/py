@@ -27,3 +27,12 @@ result = a001.judge(avg)
 
 print(avg)
 print(a001.name + " " + result)
+
+d = {
+    "apple":100,
+     "banana":200,
+     "kiwi":300
+}
+
+for k in d.values():
+  print(k)
