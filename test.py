@@ -1,33 +1,3 @@
-class Student:
-  def __init__(self, name):
-    self.name = name
-
-  def calculate_avg(self, date):
-    sum = 0
-
-    for num in date:
-      sum += num
-
-      avg = sum/len(date)
-      return avg
-
-  def judge(self, avg):
-
-    if(avg >= 60):
-      result = "passed"
-    else:
-      result = "faled"
-    return result
-
-a001 = Student("sato")
-# date = [70,65,50,90,30]
-date = [80,40,30]
-avg = a001.calculate_avg(date)
-result = a001.judge(avg)
-
-print(avg)
-print(a001.name + " " + result)
-
 d = {
     "apple":100,
      "banana":200,
@@ -36,3 +6,13 @@ d = {
 
 for k in d.values():
   print(k)
+
+oldlist = [1,2,3,4,5,6,7]
+newlist = []
+for item in oldlist:
+  if item % 2 == 0:
+    newlist.append(item)
+  else:
+    newlist.append(1)
+
+print(newlist)
