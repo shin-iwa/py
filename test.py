@@ -3,4 +3,4 @@ class Student:
       print((math + english)/2)
 
 a001 = Student()
-a001.avg(80, 70)
+a001.avg(30, 70)
