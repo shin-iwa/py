@@ -1,7 +1,12 @@
-a = 10
-b = 1
+a = ['sato', 'takahashi', 'suzuki']
+print(a)
 
-bool01 = (a < b)
+print(a[0])
+print(a[1])
+print(a[2])
 
-print(bool01)
-print(type(bool01))
+a[1] = 'tanaka'
+
+print(a[1])
+
+print(a)
