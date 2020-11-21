@@ -1,5 +1,6 @@
-arr = [2, 4, 6, 8, 10]
-sum = 0
-for i in arr:
-  sum += i
-print(sum)
+def say_hello():
+  print("hello world")
+
+say_hello()
+say_hello()
+say_hello()
