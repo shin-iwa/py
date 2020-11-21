@@ -1,7 +1,8 @@
 x = 8
-y = 3
+y = 15
 
-print(x >= 5 and x >= 3)
+x = x + 10
+x += 10
+x += y
 
-print(x == 3 or y == 3)
-print(x == 1 or y == 1)
+print(x)
