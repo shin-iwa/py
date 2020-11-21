@@ -1,14 +1,8 @@
-num = 1
-print(num)
-
-num01 = 2
-num_01 = 3
+num01 = 123
+num02 = 1.23
 
 print(num01)
-# print(num_01)
+print(num02)
 
-NUM = 1
-Num = 2
-
-print(NUM)
-print(Num)
+print(type(num01))
+print(type(num02))
