@@ -1,5 +1,5 @@
 class Student:
-  def __init_(self,name):
+  def __init__(self,name):
       self.name = name
 
   def calculate_avg(self,data):
@@ -20,7 +20,7 @@ class Student:
 
 a001 = Student("sato")
 data = [70, 65, 50, 90, 30]
-avg = a001.caluculate_avg(data)
+avg = a001.calculate_avg(data)
 result = a001.jedge(avg)
 
 print(avg)
