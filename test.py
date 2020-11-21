@@ -1,5 +1,15 @@
-def say_hello(greeting):
-  print(greeting)
+def add(num01, num02):
+  return(num01 + num02)
 
-hello = say_hello
-hello("Good Morning")
+print(add(6, 2))
+
+
+
+
+
+
+
+
+
+
+
