@@ -4,3 +4,6 @@ class Student:
 
 a001 = Student()
 a001.avg(30, 70)
+
+a001.name = "sato"
+print(a001.name)
