@@ -1,3 +1,2 @@
-print('おはよう！')
-print('Hello!')
-print("Good Morning!")
+num = 1
+print(num)
