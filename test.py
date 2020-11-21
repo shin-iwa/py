@@ -1,8 +1,4 @@
-x = 8
-y = 15
+age = 18
 
-x = x + 10
-x += 10
-x += y
-
-print(x)
+if age >= 20:
+  print("adult")
