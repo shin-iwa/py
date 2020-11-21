@@ -1,6 +1,6 @@
 class Student:
-  def avg(self):
-      print((80 + 70)/2)
+  def avg(self,math,english):
+      print((math + english)/2)
 
 a001 = Student()
-a001.avg()
+a001.avg(80, 70)
