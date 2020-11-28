@@ -49,3 +49,6 @@ t3 = "hello",
 print(t3)
 print(type(t3))
 
+profile = {'name':'takahashi', 'phone': '080-2222-4444'}
+print(profile)
+print(profile['name'])
