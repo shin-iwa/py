@@ -80,3 +80,13 @@ def say_hello(name='名無しさん'):
   print("こんにちは、" ,name)
 
 say_hello('谷さん')
+
+def adder(a, b):
+  return a + b
+
+print(adder(3,5))
+
+def power(a):
+  return a*a
+
+print(power(5))
