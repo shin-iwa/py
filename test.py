@@ -28,3 +28,7 @@ print(a001.name+" "+result)
 
 print('I\'m a Aameican')
 print(3* 'hello ' + 'world')
+
+li1 = [1,2,3,5]
+li2 = [4,6,7]
+print(li1 + li2)
