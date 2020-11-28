@@ -34,3 +34,18 @@ li2 = [4,6,7]
 print(li1 + li2)
 print(li1[0])
 print(li1[0:4])
+print(li1[-3:])
+print(li1[::-2])
+print(li1[::-1])
+print(li1[:])
+t = 123, 555, 150, "hello"
+print(t[0])
+
+t = 123, 456, 'hello'
+print(t[1])
+t2 = t, (1,2,3)
+print(t2)
+t3 = "hello",
+print(t3)
+print(type(t3))
+
