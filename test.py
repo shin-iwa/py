@@ -54,3 +54,17 @@ print(profile)
 print(profile['name'])
 profile['gender'] = 'male'
 print(profile)
+
+"""
+ただいま実験中
+この部分はコメントアウト用
+"""
+
+score = 70
+if score >= 90:
+  print('よく出来ました！')
+elif score >= 70:
+  print('もう少し！')
+else:
+  print('がんばりましょう！')
+  
