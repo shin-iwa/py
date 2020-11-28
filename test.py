@@ -25,3 +25,6 @@ result = a001.jedge(avg)
 
 print(avg)
 print(a001.name+" "+result)
+
+print('I\'m a Aameican')
+print(3* 'hello ' + 'world')
