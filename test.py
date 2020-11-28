@@ -67,4 +67,16 @@ elif score >= 70:
   print('もう少し！')
 else:
   print('がんばりましょう！')
-  
+
+for i in range(0,5):
+  print(i)
+
+def hello(name):
+  print(name + 'hello!')
+
+hello('yoshiki')
+
+def say_hello(name='名無しさん'):
+  print("こんにちは、" ,name)
+
+say_hello('谷さん')
